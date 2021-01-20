@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./practicearray.css">
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<h2 id='butt'>Butt butt butt butt</h2>
+  <script>
+let goodTeams = ['Bills','Cheifs','Packers','Browns?','Rams','Ravens','Bucs','Saints']
+
+let badTeams = []
+
+badTeams.push(prompt(`Who would win, Bills or Jets?`))
+if(badTeams[0]=== 'Bills'){
+  alert(`Solid Choice!`)
+
+}
+else if(badTeams[0]=== 'Jets'){
+  alert(`You sure bro?`)
+}
+else{
+alert(`please choose one of the teams in the question homie`)
+}
+
+badTeams.push(prompt(`Who would win, Chiefs or Jaguars?`))
+if(badTeams[1]==='Chiefs'){
+  alert(`I for suuuure agree`)
+}
+else if(badTeams[1]=== `Jaguars`)
+alert(`Can't say that's a great choice....`)
+else{
+  alert(`Choose one of the two teams I asked about homeboy!`)
+}
+
+console.log(`
+
+Good Teams: 
+-----------
+${goodTeams[0]}
+${goodTeams[1]}
+${goodTeams[2]}
+${goodTeams[3]}
+${goodTeams[4]}
+${goodTeams[5]}
+${goodTeams[6]}
+${goodTeams[7]}
+___________
+
+Bad Teams:
+-----------
+${badTeams[0]}
+${badTeams[1]}
+${badTeams[2]}
+${badTeams[3]}
+${badTeams[4]}
+${badTeams[5]}
+${badTeams[6]}
+${badTeams[7]}
+
+___________
+
+`)
+
+  </script>
+</body>
+</html>

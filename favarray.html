@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let favorites = ['Selena', 'All The Small Things', 'Pasta','Crash']
+    let userFavorites = []
+
+    userFavorites.push(prompt(`What is your favorite movie?`))
+    if(favorites [0] === userFavorites [0]){
+      alert(`That movie is the mad note!`)
+}
+
+userFavorites.push(prompt(`What is your favorite song?`))
+if(favorites[1]=== userFavorites[1]){
+  alert(`Aaaayyyyy. Great tune!`)
+}
+
+userFavorites.push(prompt(`What is your favorite food?`))
+if(favorites[2]=== userFavorites[2]){
+  alert(`That's my favorite food too man!`)
+}
+
+userFavorites.push(prompt(`What is your favorite game?`))
+if(favorites[3]=== userFavorites[3]){
+alert(`We got the same favorite game dawg!`)
+}
+    // console.log(favorites)
+
+    // console.log(userFavorites)
+
+    console.log(`
+    My Favorites
+    --------------
+    Movie:${favorites[0]}
+    Song:${favorites[1]}
+    Food:${favorites[2]} 
+    Game:${favorites[3]} 
+    -------------- thanks
+    
+    User Favorites
+    --------------
+    Movie:${userFavorites[0]}
+    Song:${userFavorites[1]}
+    Food:${userFavorites[2]}
+    Game:${userFavorites[3]}
+    --------------
+   `)
+  </script>
+</body>
+</html>
